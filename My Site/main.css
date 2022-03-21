@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family:lato,sans-serif;
+}
+
+
+/*header*/
+div.hero{
+    background-image:url(img/andyone--WW8jBak7bo-unsplash.jpg);
+    height:100vh;
+    background-position: center center;
+    background-size:cover;
+}
+div.header-content{
+    padding-top:4rem;
+}
+nav.social-media{
+    text-align: center;
+}
+nav.social-media a{
+    color:white;
+    font-size:2rem;
+    margin-right:2rem;
+}
