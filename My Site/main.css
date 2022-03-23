@@ -4,14 +4,19 @@
 }
 
 body{
-    font-family:lato,sans-serif;
+    font-family:'lato', 'Times New Roman'; 
 }
-
+/*utilities*/
+.container{
+    width:70%;
+    margin-left:auto;
+    margin-right: auto;
+}
 
 /*header*/
 div.hero{
     background-image:url(img/andyone--WW8jBak7bo-unsplash.jpg);
-    height:100vh;
+    height:60vh;
     background-position: center center;
     background-size:cover;
 }
@@ -25,4 +30,63 @@ nav.social-media a{
     color:white;
     font-size:2rem;
     margin-right:2rem;
+}
+h1{
+    font-size:11vh;
+    color: white;
+    text-transform: uppercase;
+    text-shadow:0 0 3px black;
+    text-align: center;
+}
+p.slogan{
+    color:white;
+}
+div.information div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+p.city, p.date{
+    color:white;
+    font-size:20px;
+    font-weight:400;
+    text-transform:uppercase;
+}
+p.city i,p.date i{
+    color:red;
+    font-size:30px;
+}
+div.nav-bar{
+    background-color: #353535;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav.menu a{
+    color: white;
+    font-size: 1.3em;
+    text-transform:uppercase;
+    text-decoration: none;
+    padding: 10px 10px;
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    margin: 0 10px 0 0;
+}
+/*lists*/
+ul.lists1{
+    color:darkblue;
+    text-align:left;
+    font-size:15px;
+}
+ol.lists1{
+    color:darkblue;
+    text-align:left;
+    font-size:15px;
+}
+/*footer*/
+.foot{
+    font-size: small;
+    color: balck;
 }
